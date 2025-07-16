@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: elk-stack-microservice-logging
+
+logging:
+  file:
+    name: /home/shourov/Desktop/logs/elk-stack.log  # Mount this log file into the logstash container if on Docker, and point to it from logstash.conf
